@@ -1,5 +1,12 @@
 @extends('backend.layouts.app')
 
+@section('title')
+    CRM D
+@endsection
+@section('breadcrumb')
+    Dashboards
+@endsection
+
 @section('content')
 	<!--begin::Row-->
     <div class="row gy-5 g-xl-8">

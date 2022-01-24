@@ -32,13 +32,15 @@
 				<!--begin::Page title-->
 				<div data-kt-swapper="true" data-kt-swapper-mode="prepend" data-kt-swapper-parent="{default: '#kt_content_container', 'lg': '#kt_toolbar_container'}" class="page-title d-flex align-items-center flex-wrap me-3 mb-5 mb-lg-0">
 					<!--begin::Title-->
-					<h1 class="d-flex align-items-center text-dark fw-bolder fs-3 my-1">Dashboard 
+					<h1 class="d-flex align-items-center text-dark fw-bolder fs-3 my-1">
+						@yield('breadcrumb') 
 					<!--begin::Separator-->
 					<span class="h-20px border-gray-200 border-start ms-3 mx-2"></span>
 					<!--end::Separator-->
 					<!--begin::Description-->
 					<small class="text-muted fs-7 fw-bold my-1 ms-1">#XRS-45670</small>
 					<!--end::Description--></h1>
+				
 					<!--end::Title-->
 				</div>
 				<!--end::Page title-->
@@ -55,6 +57,7 @@
 							</svg>
 						</span>
 						<!--end::Svg Icon-->Filter</a>
+
 						<!--begin::Menu 1-->
 						<div class="menu menu-sub menu-sub-dropdown w-250px w-md-300px" data-kt-menu="true" id="kt_menu_61b9d847434e3">
 							<!--begin::Header-->
@@ -135,6 +138,7 @@
 					</div>
 					<!--end::Wrapper-->
 					<!--begin::Button-->
+
 					<a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#kt_modal_create_app" id="kt_toolbar_primary_button">Create</a>
 					<!--end::Button-->
 				</div>
