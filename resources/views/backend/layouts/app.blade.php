@@ -45,7 +45,9 @@
 					<!--begin::Wrapper-->
 					<div class="me-4">
 						
+						@stack('bc-filter')
 						@stack('bc-button')
+
 
 				</div>
 				<!--end::Actions-->

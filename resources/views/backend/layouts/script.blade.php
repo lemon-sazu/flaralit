@@ -1,5 +1,9 @@
+@jquery
+@toastr_js
+@toastr_render
 
-	
+		@include('sweet::alert')
+
 		<!--begin::Global Javascript Bundle(used by all pages)-->
 		<script src="{{ asset('assets/plugins/global/plugins.bundle.js')}}"></script>
 		<script src="{{ asset('assets/js/scripts.bundle.js')}}"></script>
@@ -18,3 +22,4 @@
 		<!--end::Page Custom Javascript-->
 		<!--end::Javascript-->
 		@stack('script')
+		

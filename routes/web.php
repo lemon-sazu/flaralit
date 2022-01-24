@@ -14,5 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    toastr()->warning('My name is Inigo Montoya. You killed my father, prepare to die!');
     return view('backend.index');
 });

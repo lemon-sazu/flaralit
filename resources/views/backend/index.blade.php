@@ -7,8 +7,8 @@
     Dashboard
 @endpush
 
-@push('bc-button')
-
+@push('bc-filter')
+    
     <!--begin::Filter-->
     <a href="#" class="btn btn-sm btn-flex btn-light btn-active-primary fw-bolder" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end" data-kt-menu-flip="top-end">
         <!--begin::Svg Icon | path: icons/duotune/general/gen031.svg-->
@@ -98,12 +98,13 @@
 
         <!--end::Menu-->
     </div>
-    <!--end::Filter-->
+    <!--end::Wrapper-->
+@endpush
+
+@push('bc-button')
 
     <!--begin::Button-->
-
     <a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#kt_modal_create_app" id="kt_toolbar_primary_button">Create</a>
-    
                        
 @endpush
 
