@@ -15,4 +15,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('backend.index');
-});
+})->name('dashboard');
+
+Route::get('/form_inputs', function () {
+    return view('backend.form_inputs');
+})->name('form_inputs');

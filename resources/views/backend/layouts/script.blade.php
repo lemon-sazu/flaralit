@@ -15,6 +15,8 @@
 		<script src="{{ asset('assets/js/custom/modals/upgrade-plan.js')}}"></script>
 		<script src="{{ asset('assets/js/custom/modals/create-app.js')}}"></script>
 		<script src="{{ asset('assets/js/custom/modals/users-search.js')}}"></script>
+		<script src="{{ asset('assets/js/custom/modals/new-target.js')}}"></script>
+		<script src="{{ asset('assets/js/custom/modals/new-address.js')}}"></script>
 		<!--end::Page Custom Javascript-->
 		<!--end::Javascript-->
 		@yield('script')

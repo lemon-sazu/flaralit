@@ -152,15 +152,8 @@
 			<!--begin::Container-->
 			<div id="kt_content_container" class="container-xxl">
 				<!--begin::Row-->
-			
-
 					@yield('content')
-
-
 				<!--end::Row-->
-		
-
-
 				<!--begin::Modals-->
 				<!--begin::Modal - New Product-->
 				<div class="modal fade" id="kt_modal_add_event" tabindex="-1" aria-hidden="true">
