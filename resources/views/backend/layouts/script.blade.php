@@ -17,4 +17,4 @@
 		<script src="{{ asset('assets/js/custom/modals/users-search.js')}}"></script>
 		<!--end::Page Custom Javascript-->
 		<!--end::Javascript-->
-		@yield('script')
+		@stack('script')
