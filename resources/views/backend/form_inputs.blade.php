@@ -111,39 +111,9 @@
 @section('content')
 	<!--begin::Row-->
     <div class="row gy-5 g-xl-8">
+ 
         <!--begin::Col-->
-        <div class="col-xl-6">
-            <!--begin::Mixed Widget 2-->
-            <div class="card">
-                <!--begin::Card body-->
-                <div class="card-body">
-                    <!--begin::Heading-->
-                    <div class="card-px text-center pt-15 pb-15">
-                        <!--begin::Title-->
-                        <h2 class="fs-2x fw-bolder mb-0">New Address Modal Example</h2>
-                        <!--end::Title-->
-                        <!--begin::Description-->
-                        <p class="text-gray-400 fs-4 fw-bold py-7">Click on the below buttons to launch
-                            <br />a new address example.</p>
-                        <!--end::Description-->
-                        <!--begin::Action-->
-                        <a href="#" class="btn btn-primary er fs-6 px-8 py-4" data-bs-toggle="modal" data-bs-target="#kt_modal_new_address">Add New Address</a>
-                        <!--end::Action-->
-                    </div>
-                    <!--end::Heading-->
-                    <!--begin::Illustration-->
-                    <div class="text-center pb-15 px-5">
-                        <img src="../../assets/media/illustrations/unitedpalms-1/19.png" alt="" class="mw-100 h-200px h-sm-325px" />
-                    </div>
-                    <!--end::Illustration-->
-                </div>
-                <!--end::Card body-->
-            </div>
-            <!--end::Mixed Widget 2-->
-        </div>
-        <!--end::Col-->
-        <!--begin::Col-->
-        <div class="col-xl-6">
+        <div class="col-xl-12">
             <!--begin::Mixed Widget 2-->
             <div class="card">
                 <div class="card-body">
