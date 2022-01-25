@@ -23,5 +23,40 @@
 		<script src="{{ asset('assets/js/custom/modals/users-search.js')}}"></script>
 		<!--end::Page Custom Javascript-->
 		<!--end::Javascript-->
+		<script>
+			$(document).ready(function() {
+			$('.select_2').select2();
+			$('.select_tags').select2({
+				tags: true,
+    			tokenSeparators: [',', ' ']
+			});
+
+			$(".custom_date").flatpickr();
+
+			$(".custom_datetime").flatpickr({
+				
+					enableTime: true,
+					dateFormat: "Y-m-d H:i",
+				
+			});
+
+			$(".custom_date_range").flatpickr(
+				{
+					mode: "range",
+					minDate: "today",
+    				maxDate: new Date().fp_incr(14) // 14 days from now
+				}
+			);
+
+			$(".custom_time").flatpickr(
+				{
+					enableTime: true,
+					noCalendar: true,
+					dateFormat: "H:i",
+				}
+			);
+
+		});
+		</script>
 		@stack('script')
 		
