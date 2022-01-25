@@ -16,4 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     toastr()->warning('My name is Inigo Montoya. You killed my father, prepare to die!');
     return view('backend.index');
-});
+})->name('dashboard');
+
+Route::get('/form_inputs', function () {
+    return view('backend.form_inputs');
+})->name('form_inputs');

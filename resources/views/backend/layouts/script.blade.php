@@ -18,6 +18,8 @@
 		<script src="{{ asset('assets/js/custom/intro.js')}}"></script>
 		<script src="{{ asset('assets/js/custom/modals/upgrade-plan.js')}}"></script>
 		<script src="{{ asset('assets/js/custom/modals/create-app.js')}}"></script>
+		<script src="{{ asset('assets/js/custom/modals/new-target.js')}}"></script>
+		<script src="{{ asset('assets/js/custom/modals/new-address.js')}}"></script>
 		<script src="{{ asset('assets/js/custom/modals/users-search.js')}}"></script>
 		<!--end::Page Custom Javascript-->
 		<!--end::Javascript-->
