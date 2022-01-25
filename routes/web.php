@@ -25,3 +25,7 @@ Route::get('/form_inputs', function () {
 Route::get('/ck_editor', function () {
     return view('backend.ck_editor');
 })->name('ckeditor');
+
+Route::get('/uploader', function () {
+    return view('backend.uploader');
+})->name('uploader');
