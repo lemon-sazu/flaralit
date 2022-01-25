@@ -21,3 +21,7 @@ Route::get('/', function () {
 Route::get('/form_inputs', function () {
     return view('backend.form_inputs');
 })->name('form_inputs');
+
+Route::get('/ck_editor', function () {
+    return view('backend.ck_editor');
+})->name('ckeditor');

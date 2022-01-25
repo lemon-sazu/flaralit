@@ -51,6 +51,14 @@
                     <span class="menu-title">Form Inputs</span>
                 </a>
             </div>
+            <div class="menu-item">
+                <a class="menu-link " href="{{ route('ckeditor') }}">
+                    <span class="menu-icon">
+                        <i class="bi bi-grid fs-3"></i>
+                    </span>
+                    <span class="menu-title">CKEditor</span>
+                </a>
+            </div>
             <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
                 <span class="menu-link">
                     <span class="menu-icon">
