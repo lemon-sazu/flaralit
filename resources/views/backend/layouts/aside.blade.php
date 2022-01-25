@@ -59,6 +59,14 @@
                     <span class="menu-title">CKEditor</span>
                 </a>
             </div>
+            <div class="menu-item">
+                <a class="menu-link " href="{{ route('uploader') }}">
+                    <span class="menu-icon">
+                        <i class="bi bi-upload fs-3"></i>
+                    </span>
+                    <span class="menu-title">File Uploader</span>
+                </a>
+            </div>
             <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
                 <span class="menu-link">
                     <span class="menu-icon">
